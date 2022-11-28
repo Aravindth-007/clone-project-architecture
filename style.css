@@ -1,0 +1,329 @@
+body {
+  background-color: rgb(115, 114, 114);
+  padding: 20px 340px 20px;
+}
+.full-content {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  /* margin-left: 200px; */
+  /* margin-right: 200px; */
+}
+.section-1 {
+  display: flex;
+  padding: 50px;
+  width: 1000px;
+  height: 600px;
+  background-image: url(./arcitecture\ \ image\ -1.jpeg);
+  background-size: 100% 100%;
+}
+.full-flex {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  margin-left: 0px;
+}
+.full-flex-1 {
+  display: flex;
+  align-items: flex-end;
+}
+.yellow-box {
+  background-color: #ffc800;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  /* border: 5px solid black; */
+}
+.big-font {
+  display: flex;
+  flex: 3;
+}
+.big-font-1 {
+  font-size: 80px;
+  margin-top: 105px;
+  font-family: "Merriweather", serif !important;
+  color: white;
+}
+
+.small-font {
+  display: flex;
+  flex: 1;
+  margin-top: -64px;
+}
+.small-font-1 {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  color: white;
+}
+.section-2 {
+  display: flex;
+  padding: 50px;
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(251, 250, 250);
+}
+.mission-icon-1 {
+  width: 50px;
+  height: 50px;
+}
+.section-2-full-content {
+  display: flex;
+}
+.section-2-left-side {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+}
+.left-side-1 {
+  width: 600px;
+  height: 250px;
+}
+.about-us {
+  height: 20%;
+  margin-bottom: 20px;
+}
+.about-us-1 {
+  font-family: "Merriweather", serif !important;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+  margin-top: 3px;
+}
+.our-mission {
+  height: 20%;
+}
+.our-mission-1 {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Merriweather", serif !important;
+  font-weight: bold;
+  color: rgb(244, 213, 9);
+  margin-top: -17px;
+}
+.our-mission-and-goals {
+  height: 60%;
+}
+.our-mission-and-goals {
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  color: black;
+}
+.left-side-2 {
+  width: 600px;
+  height: 250px;
+  display: flex;
+}
+.left-side-2-left {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.mission-icon {
+  height: 25px;
+}
+.mission-icon-1 {
+  width: 50px;
+  height: 50px;
+}
+.mission-head {
+  height: 30px;
+  margin-top: 30px;
+}
+.mission-head-1 {
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.mission-small {
+}
+.mission-small-1 {
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+}
+.left-side-2-right {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.section-2-right-side {
+  width: 400px;
+  height: 500px;
+}
+.image-2 {
+  width: 400px;
+  height: 500px;
+}
+.section-3 {
+  display: flex;
+  height: 300px;
+  width: 1000px;
+  padding: 50px;
+  background-color: black;
+}
+.section-3-left-side {
+  width: 300px;
+  height: 300px;
+}
+
+.font-25 {
+  font-size: 250px;
+  font-weight: bolder;
+  font-family: Roboto, sans-serif !important;
+  color: rgb(245, 201, 9);
+}
+.sectiion-3-right-side {
+  width: 700px;
+  height: 300px;
+}
+.section-3-big-font {
+  height: auto;
+  width: 700px;
+}
+.section-3-big-font-1 {
+  font-size: 50px;
+  font-family: "Merriweather", serif !important;
+  font-weight: bolder;
+  color: white;
+}
+.section-3-small-font {
+  height: auto;
+  width: 700px;
+  margin-top: -30px;
+}
+.section-3-small-font-1 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-style: italic;
+  color: rgb(244, 217, 10);
+}
+.section-4 {
+  display: flex;
+  width: 1000px;
+  height: 300px;
+  background-image: url(./building\ image-3.jpeg);
+  background-size: 100% 100%;
+  padding: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-4-content {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: auto;
+}
+.number {
+  display: flex;
+  justify-content: center;
+}
+.number-1 {
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: Roboto, sans-serif !important;
+  color: white;
+}
+.font {
+  display: flex;
+  justify-content: center;
+}
+.font-1 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-style: italic;
+  color: #ffc800;
+  margin-top: -50px;
+}
+.section-5 {
+  display: flex;
+  width: 1100px;
+  height: 250px;
+}
+.all-images {
+  width: 275px;
+  height: 250px;
+}
+.section-6 {
+  width: 1100px;
+
+  display: flex;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./building\ image\ -5.jpeg);
+  background-size: 100% 100%;
+}
+.all-divs {
+  display: flex;
+  width: 600px;
+  height: auto;
+  flex-direction: column;
+  margin-left: 240px;
+}
+.section-6-big-font {
+}
+.section-6-big-font-1 {
+  font-family: "Merriweather", serif !important;
+  font-size: 50px;
+  color: white;
+  margin-top: 40px;
+}
+.text {
+}
+.section-6-small-font-1 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  color: white;
+  margin-top: -40px;
+}
+.all-inputs {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+}
+.name-1 {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+.email {
+}
+.email-1 {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+.message {
+}
+.message-1 {
+  height: 100px;
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffc800;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+}
